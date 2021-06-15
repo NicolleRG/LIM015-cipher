@@ -1,10 +1,10 @@
 //Metodo encode y decode 
 
 const cipher = {
-  encode: (offset, texto) => { 
+  encode: (offset, texto) => { //PROPIEDAD
     
     if (offset == null || offset == 0) {
-      throw new TypeError()   //Throw para interrumpir el flujo de ejecución de la función y lanzando un objeto o tipo dato, en este caso se construye con new y es de la clase con el constructor TYPEERROR es uno de los tipos de error que JS trae incluido
+      throw new TypeError()   
     }
 
     let a =0;
@@ -20,7 +20,7 @@ const cipher = {
           a=b; 
         }
 
-      if(b >=48 && b <=  57) //Numeros b=48 | 5  | b = 53 
+      if(b >=48 && b <=  57) 
         {
           a = 48 + (b - 48 + parseInt(offset)) % 10;
           //[0,1,2,3,4,5,6,7,8,9]
@@ -28,15 +28,10 @@ const cipher = {
           
           //[48,49,50,51,52,53,54,55,56,57] [0..9]
           
-          
-          //   52 - 48   => 5 =
+          //   52 - 48   => 4+1= 5 
           // a = minimo + ( posiciondelaletra )
           // a = minimo + ( (indiceactual - minimo) + desplazamiento ) % totalDeNum
-          // a = 48 + (57 - 48 + 5) % 10 ;
-          // a = 48 + (9 + 5) % 10 
-          // a = 48 + 14%10
-          // a = 48 + 4
-          // a =  52
+         
         }
 
       if(b >=65 && b <=90) //Mayúsculas
@@ -66,9 +61,6 @@ const cipher = {
 
           a = 97 + (b - 97 + parseInt(offset)) % 26 ;
 
-          //a = 97 + (122 - 97 + 1)%11 
-          //a = 97 + (26)%11
-          //a = 97 + 4
         }
         
         total += String.fromCharCode(a); //devuelve una cadena creada

@@ -1,16 +1,24 @@
 # ¡Secure Keys Social Media! 🔐
 >*Tus redes sociales más seguras que nunca*
 
+**Creadora 💁‍♀️:**
+
+1. Cristina Nicolle Rebaza Garcia
+
+**Link:**
+
+[CipherCesar](http://127.0.0.1:5500/src/index.html)
+
 ## Comenzamos ⭐
 
 * [1. Introducción](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
+* [4. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [5. Hacker edition](#6-hacker-edition)
+* [6. Consideraciones técnicas](#7-consideraciones-técnicas)
+* [7. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [8. Checklist](#9-checklist)
 
 ***
 
@@ -89,7 +97,7 @@ Esta es la plantilla plasmé como es que queria que se viera mi aplicación.
 
 ### Interfaz de usuario (UI)
 
->![Entrada](1.jpg)
+>![Entrada](https://github.com/NicolleRG/LIM015-cipher/blob/main/src/assets/1.jpg)
 
 La interfaz debe permitir al usuario:
 
@@ -97,16 +105,16 @@ La interfaz debe permitir al usuario:
 * Insertar un mensaje (texto) que queremos cifrar.
 * Ver el resultado del mensaje cifrado.
 
->![Cifrado](2.jpg)
+>![Cifrado](https://github.com/NicolleRG/LIM015-cipher/blob/main/src/assets/2.jpg)
 
 * Insertar un mensaje (texto) a descifrar.
 * Ver el resultado del mensaje descifrado.
 
->![Descifrado](3.jpg)
+>![Descifrado](https://github.com/NicolleRG/LIM015-cipher/blob/main/src/assets/3.jpg)
 
 * Me manda una alerta cada vez que ingreso números menores a 1.
 
->![Entrada](4.jpg)
+>![Entrada](https://github.com/NicolleRG/LIM015-cipher/blob/main/src/assets/4.jpg)
 
 ### Scripts / Archivos
 
@@ -130,7 +138,7 @@ La interfaz debe permitir al usuario:
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
   tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
 
-## 6. Hacker edition
+## 5. Hacker edition
 
 Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
 con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
@@ -144,7 +152,7 @@ punto de partida para implementar el soporte para estos casos.
 Tampoco se menciona qué pasaría si el offset fuera negativo. Como parte del
 hacker edition te invitamos a explorar también esta caso por tu cuenta.
 
-## 7. Consideraciones técnicas
+## 6. Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript. En
 este proyecto NO está permitido usar librerías o frameworks, solo JavaScript puro
@@ -197,7 +205,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 ***
 
-## 8. Pistas, tips y lecturas complementarias
+## 7. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
 
@@ -307,7 +315,7 @@ Organización del Trabajo:
   poco a lo largo del -_bootcamp_.
 * [Guía para Cifrado César](https://docs.google.com/presentation/d/e/2PACX-1vTQ7-8LZDHrT4Y6AOBN72Nkfz1eJAeseBHpcHX8BSq0aFCFoZmuMjluMeyFNgK9ISKxTz0H03yGfJiT/pub?start=false&loop=false&delayms=60000)
 
-## 9. Checklist
+## 8. Checklist
 
 Esta sección está para ayudarte a llevar un control de lo que vas completando.
 
