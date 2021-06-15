@@ -81,7 +81,7 @@ Al realizar mi prototipo, me iba imaginando y poniendome en el lugar del usuario
 
 Esta es la plantilla plasmé como es que queria que se viera mi aplicación. 
 
->![Prototipo de Cipher](cipher.png)
+>![Prototipo de Cipher](https://github.com/NicolleRG/LIM015-cipher/blob/main/src/assets/cipher.png)
 
 * Usuarios de producto: Todos en general que busquen seguridad en sus redes sociales. 
 * Objetivos de estos usuarios: Usar la aplicación para fines de seguridad, tanto en el cifrado o descifrado. 
