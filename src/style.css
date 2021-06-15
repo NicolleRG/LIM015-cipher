@@ -1,0 +1,176 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body{
+  background-image: url("https://thumbs.dreamstime.com/b/programaci%C3%B3n-previniendo-cortes-en-seguridad-de-internet-125850616.jpg"); 
+}
+
+header {
+  margin: 8.5em;
+  margin-top: 5em;
+  width: 1054px;
+  background-color: #b39ddb;
+  text-align: center;
+  font: 15px monospace;
+  font-family: "Sweet Winter Regular";
+  color: rgb(13, 13, 14);
+  margin-bottom: 0em;
+}
+
+p {
+  color: rgb(252, 252, 252);
+  text-align: center;
+  font: 30px serif;
+  font-family: "Comic Sans MS";
+}
+
+#contenido{
+  margin: 8em;
+  margin-top: 0px;
+  text-align: center;
+  display: inline-flex;
+  width: 80%;
+  height: 360px;
+  float: center;
+  background-color: #d0bff0;
+  margin-bottom: 0em;
+}
+
+footer {
+  margin: 7.1em;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  width: 1054px;;
+  height: 50px;
+  background-color: #b39ddb;
+  text-align: center;
+  font: 18px cursive;
+}
+
+#caja1{
+  margin: 0px;
+  height: 320px;
+  width: 320px;
+  border-radius: 1em;
+  background-color:#ffffff ;
+  float: left;
+  margin: 1.2em;
+  line-height: 300%;
+  text-align: center;
+  font: 15px;
+  font-family: "Comic Sans MS";
+}
+
+#caja2{
+  height: 320px;
+  width: 320px;
+  border-radius: 1em;
+  float: left;
+  margin: 1.2em;
+  background-image: url("https://img.freepik.com/vector-gratis/coleccion-logotipos-redes-sociales-pintados-mano_23-2147604518.jpg?size=338&ext=jpg");
+  
+}
+
+#caja3{
+  margin:0px;
+  height: 320px;
+  width: 320px;
+  border-radius: 1em;
+  background-color:#ffffff ;
+  float: left;
+  margin: 1.2em;
+  text-align: center;
+  font: 15px;
+  line-height: 300%;
+  font-family: "Comic Sans MS";
+}
+
+#cajaDes{ 
+  height: 100px;
+  width: 280px;
+  border-radius: 1em;
+  background-color:#e2d9e2 ;
+  float: left;
+  margin: 1em;
+  line-height: 280%;
+  text-align: center;
+  font-size: small;
+  font-family: "Comic Sans MS";
+}
+
+#texto{
+    margin: auto;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+    width: 240px;
+    height: 200px;
+    font-size: large;
+    font-family: "Comic Sans MS";
+}
+
+#offset{
+  margin-top: 1em;
+  height: 25px;
+  text-align: center;
+}
+
+#resultado{
+  margin:auto;
+  width: 270px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  text-align: center;
+  padding-top: 60px;
+  font: 500px;
+  font-family: "Comic Sans MS";
+}
+
+.botonesCifrado {
+  margin: 5.5em;
+  height: 180px;
+  margin-top: 120px;
+  display: inline-flexbox;
+}
+
+button{
+  text-align: center;
+  color: rgb(22, 22, 22);
+  border-radius: 10px;
+  background-color: #ffcdd2;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover{
+  background-color: #ffffff;
+}
+
+#code{
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  font: bold 16px monospace;
+  margin: 5px;
+}
+
+#decodificar{
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  font: bold 16px monospace;
+  margin: 5px;
+  margin-top: 15px;
+}
+
+#limpiar{
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  font: bold 16px monospace;
+  margin: 5px;
+  margin-top: 15px;
+}
+
